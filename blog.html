@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Intento reproductor sunrise</title>
+    <link rel="shortcut icon" href="D:\computo 2023\barra de busqueda\diseno-buscador-interno-html-css-javascript-master\img\logo mini.jpg"/>
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/blog.css">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+<body>
+
+    <!--Header - menu-->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <h1>Sunrise</h1>
+            </div>
+            <div class="menu" id="show-menu">
+                <nav>
+                    <ul>
+                        <li><a href="#"> <i class="fas fa-home"></i> Inicio</a></li>
+                        <li><a href="#"> <i class="fab fa-youtube"> </i>Playlist</a></li>
+                        <li class="menu-selected"><a href="blog.html" class="text-menu-selected"> 
+                            <i class="fas fa-file-alt"></i>Canciones</a></li>
+                        <li><a href="#"> <i class="fas fa-headset"></i> Registrarse</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="ctn-icon-search">
+                <i class="fas fa-search" id="icon-search"></i>
+            </div>
+        </div>
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+
+    <div id="ctn-bars-search">
+        <input type="text" id="inputSearch" placeholder="Buscar :D">
+    </div>
+
+    <ul id="box-search">
+        <li><a href="#"><i class="fas fa-search"></i>TWICE</a></li>
+        <li><a href="#"><i class="fas fa-search"></i>MARINA</a></li>
+        <li><a href="#"><i class="fas fa-search"></i>THE NBHD</a></li>
+        <li><a href="#"><i class="fas fa-search"></i>MITSKI</a></li>
+        <li><a href="#"><i class="fas fa-search"></i>RANDOM</a></li>
+        <li><a href="#"><i class="fas fa-search"></i>MÁS</a></li>
+    </ul>
+
+    <div id="cover-ctn-search"></div>
+
+
+    <!--Portada-->
+
+    <div class="container-all" id="move-content">
+
+    
+    <div class="blog-container-cover">
+        <div class="container-info-cover">
+            <h1>¡Buenas noches!</h1>
+            <p>En caso no encuentres la canción indicada, podemos recomendarte alguna</p>
+            <p>Twice siempre es buena opción, grupo femenino de K-Pop formado por JYP Entertainment a través del programa de supervivencia SIXTEEN (2015).</p>
+        </div>
+    </div>
+
+    <div class="container-post">
+
+        <input type="radio" id="TODOS" name="categories" value="TODOS" checked>
+        <input type="radio" id="TWICE" name="categories" value="TWICE">
+        <input type="radio" id="MARINA" name="categories" value="MARINA">
+        <input type="radio" id="NBHD" name="categories" value="NBHD">
+        <input type="radio" id="MITSKI" name="categories" value="MITSKI">
+        <input type="radio" id="RANDOM" name="categories" value="RANDOM">
+        <input type="radio" id="MÁS" name="categories" value="MÁS">
+
+        <div class="container-category">
+            <label for="TODOS">TODOS</label>
+            <label for="TWICE">TWICE</label>
+            <label for="MARINA">MARINA</label>
+            <label for="NBHD">NBHD</label>
+            <label for="MITSKI">MITSKI</label>
+            <label for="RANDOM">RANDOM</label>
+            <label for="MÁS">MÁS</label>
+        </div>
+
+        <div class="posts">
+            <div class="post" data-category="TWICE">
+
+                <div class="ctn-img"><img src="D:\computo 2023\barra de busqueda\diseno-buscador-interno-html-css-javascript-master\img\T1.jpg" alt=""></div>
+                <h2>Moonlight sunrise</h2>
+                <span>Hace 7 meses</span>
+                <ul class="ctn-tag">
+                    <li>TWICE</li>
+                </ul>
+                <a href="articulo.html"><button>Escuchar</button></a>
+
+            </div>
+            <div class="post" data-category="TWICE">
+
+                <div class="ctn-img">
+                    <img src="D:\computo 2023\barra de busqueda\diseno-buscador-interno-html-css-javascript-master\img\T2.jpg" alt="">
+                </div>
+                <h2>Cry for me</h2>
+                <span>Hace 11 meses</span>
+                <ul class="ctn-tag">
+                    <li>TWICE</li>
+                </ul>
+                <a href="articulo.html"><button>Escuchar</button></a>
+
+            </div>
+            <div class="post" data-category="MARINA">
+
+                <div class="ctn-img"><img src="img/M1.jpg" alt=""></div>
+                <h2>Teen idle</h2>
+                <span>Hace 5 años</span>
+                <ul class="ctn-tag">
+                    <li>MARINA</li>
+                    <li>MÁS</li>
+                </ul>
+                <a href="articulo2.html"><button>Escuchar</button></a>
+
+            </div>
+            <div class="post" data-category="RANDOM">
+
+                <div class="ctn-img"><img src="img/C1.jpg" alt=""></div>
+                <h2>Lucky girl</h2>
+                <span>Hace 1 año</span>
+                <ul class="ctn-tag">
+                    <li>RANDOM</li>
+                </ul>
+                <a href="articulo3.html"><button>Escuchar</button></a>
+
+            </div>
+            <div class="post" data-category="RANDOM MÁS">
+
+                <div class="ctn-img"><img src="img/metric.jpg" alt=""></div>
+                <h2>Black sheep</h2>
+                <span>Hace 7 años</span>
+                <ul class="ctn-tag">
+                    <li>RANDOM</li>
+                    <li>MÁS</li>
+                </ul>
+                <a href="articulo3.html"><button>Escuchar</button></a>
+
+            </div>
+            <div class="post" data-category="TWICE">
+
+                <div class="ctn-img"><img src="img/T3.jpg" alt=""></div>
+                <h2>Up no more</h2>
+                <span>Hace 2 años</span>
+                <ul class="ctn-tag">
+                    <li>TWICE</li>
+                </ul>
+                <a href="articulo.html"><button>Escuchar</button></a>
+
+            </div>
+            <div class="post" data-category="MITSKI RANDOM">
+                <div class="ctn-img"><img src="img/THE NBH.jpg" alt=""></div>
+                <h2>Prey</h2>
+                <span>Hace 5 años</span>
+                <ul class="ctn-tag">
+                    <li>RANDOM</li>
+                    <li>MITSKI</li>
+                </ul>
+                <a href="articulo3.html"><button>Escuchar</button></a>
+
+            </div>
+            <div class="post" data-category="MITSKI">
+                <div class="ctn-img"><img src="img/clairo.jpg" alt=""></div>
+                <h2>New romantics</h2>
+                <span>Hace 5 meses</span>
+                <ul class="ctn-tag">
+                    <li>MITSKI</li>
+                </ul>
+                <a href="articulo3.html"><button>Escuchar</button></a>
+
+            </div>
+            <div class="post" data-category="TWICE">
+
+                <div class="ctn-img"><img src="img/T4.jpg" alt=""></div>
+                <h2>Love foolish</h2>
+                <span>Hace 3 años</span>
+                <ul class="ctn-tag">
+                    <li>TWICE</li>
+                </ul>
+                <a href="articulo.html"><button>Escuchar</button></a>
+
+            </div>
+            <div class="post" data-category=" RANDOM MÁS">
+
+                <div class="ctn-img"><img src="img/B1.jpg" alt=""></div>
+                <h2>Affection</h2>
+                <span>Hace 3 años</span>
+                <ul class="ctn-tag">
+                    <li>MÁS</li>
+                    <li>RANDOM</li>
+                </ul>
+                <a href="articulo3.html"><button>Escuchar</button></a>
+
+            </div>
+
+            
+
+        </div>
+
+    </div>
+
+
+    <div class="container-footer">	
+
+        <footer>
+            <div class="logo-footer">
+                <img src="D:\computo 2023\barra de busqueda\diseno-buscador-interno-html-css-javascript-master\img\logo sunrise.jpg" alt="">
+            </div>
+
+            <div class="redes-footer">
+                <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+                <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
+            </div>
+        </footer>
+
+    </div>
+
+</div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
